@@ -1,0 +1,22 @@
+
+body{
+    font-family: sans-serif;
+    background-color: rgb(146, 202, 202);
+    /* margin: auto; */
+}
+.title{
+    color: white;
+    background-color: black;
+    width: 100%;
+    font-size: 40px;
+    padding: 20px 0px;
+    border-bottom: red  3px solid;
+    text-align: center;
+}
+ul li{
+    line-height: 40px;
+}
+.text{
+    padding: 0px 210px;
+    color: #444;
+}
