@@ -1,0 +1,111 @@
+.main {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow: hidden;
+}
+
+.top-header {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 20px 10px;
+    border-top: 3px solid rgb(100, 123, 117);
+    box-shadow: 0px -20px 50px black;
+    width: 100%;
+    /* max-height: 94px; */
+}
+
+.logo {
+    margin-left: 80px;
+
+}
+
+.top-header h1 {
+    margin-top: 20px;
+}
+
+.top-header a,
+.top-header h1 {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 25px;
+    border-radius: 4px;
+
+}
+
+.top-header a:hover {
+    background-color: #ddd;
+    border-bottom: 2px solid rgb(169, 169, 169);
+}
+
+.header-right {
+    float: right;
+    margin: 20px 80px 0px 0px;
+}
+
+.container {
+    position: relative;
+    max-width: 721px;
+    margin: 0 auto;
+    /* height: 500px; */
+}
+
+.main-img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.content {
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+}
+
+.container-2 {
+    padding-top: 50px;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.sobre {
+    color: rgb(68, 65, 65);
+}
+
+.sobre h2 {
+    font-size: 40px;
+    font-style: oblique;
+
+    padding-top: 90px;
+}

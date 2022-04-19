@@ -1,0 +1,103 @@
+/*reset*/
+* {
+	padding:0;
+	margin:0;
+	vertical-align:baseline;
+	list-style:none;
+	border:0
+}
+body{
+	background-color: rgb(53, 53, 53);
+}
+/* Estiliza barra de navegação */
+.barra_navegacao{
+	width: 100%;
+	background-color: #555;
+	overflow: hidden;
+}
+
+/* links da barra de navegação */
+
+.barra_navegacao a{
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 35px;
+	text-decoration: none;
+	font-size: 20px;
+}
+.barra_navegacao p{
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 32px 90px 32px 100px;
+	font-size: 25px;
+	font-style: italic;
+}
+
+.barra_navegacao a:hover{
+	background-color: #000;
+}
+
+/* Coisa da barra de pesquisa ali */
+
+.barra_navegacao input{
+	float: right;
+	padding: 20px;
+	border-radius: 10px;
+	margin-top: 15px;
+	margin-right: 100px;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+/* Imagem central */
+
+.container{
+	position: relative;
+	max-width: 85%;
+	margin: 0 auto; /*centraliza a image*/
+}
+.container .content{
+	position: absolute;
+	bottom: 0;
+	background: rgb(0, 0, 0);
+	background: rgb(0, 0, 0, 0.5);
+	color: #f1f1f1;
+	width: 100%;
+	padding: 30px 0px 30px 0px;
+	text-align: center;
+	font-size: 30px;
+
+}
+#lname, #fname, select, textarea{
+	width: 100%;
+	padding: 15px;	
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 20px;
+	resize: vertical;
+}
+input[type=submit]{
+	background-color: #04AA6D;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: #45a049;
+}
+.container-form {
+	color: white;
+	border-radius: 5px;
+	background-color: rgb(53, 53, 53);
+	padding: 20px 100px 0px 100px;
+  }
+  
